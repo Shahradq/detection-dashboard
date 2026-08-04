@@ -1,0 +1,17 @@
+# Python
+venv/
+**/venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
+# Model weights (auto-downloaded by ultralytics on first run)
+*.pt
+
+# User-uploaded video sources (transient)
+data/uploads/
