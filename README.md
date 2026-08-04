@@ -41,10 +41,3 @@ Backend routes served by FastAPI on **port 8000** (not the dashboard's 8501) —
 | `/stream` | GET | Live annotated video feed |
 | `/detections` | GET | Current detections, FPS, inference time |
 | `/source` | POST | Upload a new video |
-
-## Known Limitations
-
-- Uses the pretrained YOLOv8n model (not fine-tuned on custom data)
-- No webcam or RTSP support — file upload only
-- No detection history is saved between sessions
-- No authentication — meant for local/demo use
